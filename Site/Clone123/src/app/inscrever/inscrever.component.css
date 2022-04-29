@@ -1,0 +1,96 @@
+.form, .form-email{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder{
+    color: black;
+}
+input{
+    border: 1px solid black;
+    padding: 18px;
+    border-radius: 5px;
+    width: 450px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+h1,p{
+    color: black;
+}
+
+a{
+    margin-bottom: 5px;
+    color: #1ed760;
+}
+
+.genero{
+    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-bottom: 60px;
+}
+
+.check{
+    margin-top: 13px;
+    margin-right: -135px;
+}
+
+.inscrev-facebok , .inscrev-google{
+    background-color: #405a93;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+.inscrev-facebok:hover, .inscrev-google:hover{
+    transform: scale(1.05);
+    transition: 0.5s all;
+}
+
+.inscrev-google{
+    background-color: white;
+    border: 1px solid #666;
+    margin-bottom: 30px;
+}
+
+.p-inscre{
+    margin-left: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.arte-google{
+    margin-left: 22px;
+}
+
+.google-p{
+    margin-left: -10px;
+    color: rgb(53, 53, 53);
+    font-weight: 500;
+}
+
+button{
+    cursor: pointer;
+    background-color: #1ed760;
+    color: #000;
+    margin-top: -15px;
+    padding: 15px;
+    width: 180px;
+    border: none;
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+
+h4{
+    color: black;
+    font-weight: 400;
+    margin-bottom: 50px;
+}

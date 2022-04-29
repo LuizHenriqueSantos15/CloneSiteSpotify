@@ -1,0 +1,38 @@
+.empresa , .Comunidades, .redes-sociais , .links-uteis{
+    display: flex;
+    flex-direction: column;
+    line-height: 37px;
+    margin-top: 100px;
+}
+
+.redes-sociais{
+    flex-direction: row;
+}
+
+.icon-rede{
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.title-footer{
+    color: rgb(165, 165, 165);
+    font-weight: 500;
+}
+
+footer{
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #1ed760;
+    transition: 0.3s all;
+}

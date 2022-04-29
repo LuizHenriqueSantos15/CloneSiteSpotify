@@ -1,0 +1,123 @@
+.suporte-bg{
+    background-image: url('https://support.scdn.co/web/_next/static/assets/8d6b3c8/search-desktop.webp');
+    height: 70vh;
+    display: flex;
+}
+
+.ajuda-bg{
+    background-color: #efefef;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin-top: 50px;
+    font-size: 55px;
+    margin-left: 50px;
+}
+
+input{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+}
+
+.como-entrar , .solution-problemas, .help-entrada, .ofertas-premium{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-bg{
+    margin-top: 55px;
+    margin-left: -150px;
+    display: flex;
+    line-height: 30px;
+    width: 150%;
+}
+
+p{
+    font-size: 20px;
+    color: #b4b4b4;
+}
+
+h5{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.h1-help{
+    font-size: 28px;
+    color: black;
+}
+
+.help-payments , .help-plane, .help-app, .help-dispo , .ajuda-conta, .privacidade-dados{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.comunidade{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 50vh;
+    justify-content: center;
+}
+
+
+.p-com{
+    width: 500px;
+    font-weight: 500;
+    color: black;
+}
+
+.info-com{
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-com{
+    margin-left: 0px;
+    color: #1ed760;
+    font-size: 46px;
+}
+
+button{
+    background-color: #1ed760;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 125px;
+    cursor: pointer;
+}
+
+.link{
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: underline;
+}

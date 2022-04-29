@@ -1,0 +1,42 @@
+header{
+    height: 12vh;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(19, 17, 17);
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+li{
+    margin-right: 28px;
+    margin-left: 0px;
+    color: transparent;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-spotify{
+    margin-right: 500px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #1ed760;
+    transition: 0.3s all;
+}

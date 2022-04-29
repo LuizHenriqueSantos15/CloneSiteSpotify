@@ -1,0 +1,185 @@
+.landing{
+    background-color: #993399;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    display: flex;
+}
+
+.info-premium{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 100px;
+}
+
+.btn-free{
+    background-color: black;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.ver-planos{
+    background-color: #993399;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.subtitle{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.btn{
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+.termos-p{
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.img{
+    margin-top: 35px;
+}
+.subtitle , .termos-p , .info{
+    color: white;
+}
+span{
+    text-decoration: line-through;
+}
+
+.why-premium{
+    background-color: white;
+    height: 90vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-img{
+    color: black;
+}
+
+.modo-of{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.title-premium{
+    color: black;
+    margin-top: -130px;
+    margin-bottom: 100px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+.pag-img{
+    margin-top: 15px;
+    color: black;
+}
+
+.info-bg{
+    margin-right: 90px;
+}
+
+.img-premium{
+    margin-bottom: 35px;
+}
+
+.escolha-plano{
+    background-color: #efefef;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,h3,p{
+    color: black;
+}
+
+.preco{
+    margin-top: 3px;
+    margin-bottom: 50px;
+}
+
+.h1-plano{
+    margin-bottom: 95px;
+    margin-top: 35px;
+}
+
+.area-planos{
+    display: flex;
+}
+.plano-individual{
+    background-color: white;
+    width: 280px;
+    margin-right: 15px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 4px white;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    height: 700px;
+}
+
+.span-planos{
+    color: white;
+    text-decoration: none;
+    background-color: #2e77d0;
+    margin-top: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    margin-right: 15px;
+    height: 20px;
+    margin-bottom: 6px;
+}
+
+.cont-plano{
+    margin-left: 15px;
+}
+
+.p-planos{
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.call-to-action{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 92%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    border: none;
+    margin-top: 220px;
+}
+
+.conteudo-plano{
+    line-height: 28px;
+    margin-bottom: 0px;
+}

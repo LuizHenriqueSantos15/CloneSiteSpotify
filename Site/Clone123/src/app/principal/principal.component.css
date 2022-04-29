@@ -1,0 +1,157 @@
+header{
+    height: 12vh;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+li{
+    margin-right: 28px;
+    margin-left: 0px;
+    color: transparent;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-spotify{
+    margin-right: 500px;
+}
+
+.premimum-info{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    background-color: #993399;
+    height: 90vh;
+}
+
+.premium{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 700px;
+}
+
+h1{
+    line-height: 60px;
+    font-size: 65px;
+    margin-top: 45px;
+}
+
+h3{
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+button{
+    background-color: black;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.title{
+    font: 500;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.termos{
+    margin-top: 28px;
+    font-size: 15px;
+}
+.link{
+    text-decoration:underline;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #1ed760;
+    transition: 0.3s all;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3s all;
+}
+
+.spotify-free{
+    display: flex;
+    height: 90vh;
+    background-color: #2941ab;
+    background-image: url('https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg');
+}
+
+.free{
+    margin-top: 100px;
+    width: 700px;
+    margin-left: 60px;
+}
+
+.h1-free , .h3-free, .p-free{
+    margin-top: 0px;
+    color: #1ed760;
+}
+
+.h1-free{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-size: 60px;
+}
+
+.btn-free{
+    color: #2941ab;
+    background-color: #1ed760;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .premimum-info{
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        height: max-content;
+        margin-left: 0px;
+    }
+
+    .premium{
+        width: 500px;
+        margin-left: 15px;
+    }
+
+         header{
+   display: none;
+    }
+    
+    .img-pag{
+        margin-top: 150px;
+        width: 400px;
+        border-radius: 5px;
+        margin-bottom: 250px;
+    }
+}
